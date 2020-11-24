@@ -1,6 +1,6 @@
 import React from "react";
 import './newYear';
-import "./App.css";
+import "./cssApp.css";
 
    
 export default function App() {
