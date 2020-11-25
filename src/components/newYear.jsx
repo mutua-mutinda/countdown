@@ -14,12 +14,11 @@ export default function newYear() {
             const m = Math.floor((gap % (hour)) / (minute));
             const s = Math.floor((gap % (minute)) / (second));
 
-            document.getElementById('day').innerText = d;
-            document.getElementById('hour').innerText = h;
-            document.getElementById('minute').innerText = m;
-            document.getElementById('second').innerText = s;
+            document.querySelector('#day').innerText = d;
+            document.querySelector('#hour').innerText = h;
+            document.querySelector('#minute').innerText = m;
+            document.querySelector('#second').innerText = s;
         }
-        setInterval(function(){
-            newYear()
-        },1000);
-     
+setInterval(function(){
+    newYear()
+},1000);
