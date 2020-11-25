@@ -5,17 +5,19 @@ import "./css/App.css";
    
 export default function App() {
   return (
+    <>
     <div className="container">
         <div className="imgBx"></div>
         <div className="countdownBx">
             <h2>Count Down To New Year <br/> <span>20<i>20</i></span></h2>
             <div className="countdown">
-                <div id="day">Na</div>
-                <div id="hour">Na</div>
-                <div id="minute">Na</div>
-                <div id="second">Na</div>
+                <div id="day">D</div>
+                <div id="hour">H</div>
+                <div id="minute">M</div>
+                <div id="second">S</div>
             </div>
       </div>
     </div>
+    </>
     );
 }
