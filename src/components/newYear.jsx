@@ -24,4 +24,4 @@ setInterval(function(){
     newYear()
 },1000);
 
- export default  newYear;
+export default  newYear;
